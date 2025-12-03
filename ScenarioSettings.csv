@@ -1,0 +1,6 @@
+﻿Scenario,Fuel density,Log-location parameter,Log-scale parameter,Fuel price,Carbon price
+,,,,,
+"Scenario 1: A traditional fuel baseline scenario, reflecting current operations",1.0 kg/L,1.00028,0.12002,Current HFO fuel prices,Current carbon price 
+"Scenario 2: A green methanol adoption scenario, assessing the fundamental impacts of the fuel transition",0.8 kg/L,1.00031,0.0209076,Current methanol fuel prices,Current carbon price
+Scenario 3: Simulating a 15% reduction in green methanol prices at China ports to investigate the effect of regional cost advantages,0.8 kg/L,1.00031,0.0209076,Methanol fuel prices at China ports have decreased by 15%,Current carbon price
+,,,,,
