@@ -13,8 +13,8 @@ load('CargoFareMatrix.mat');
 load('Demand.mat');
 
 port_waittime=12;
-port_fuelconsume_matrix=1*[3.5,3.5,3.5;5,5,5;6.5,6.5,6.5];
-fixedcost_matrix=10000*7*[7.47,7.47,7.47;8.19,8.19,8.19;8.751,8.751,8.751];
+port_fuelconsume_matrix=1*[3,3,3;5,5,5;6,6,6];
+fixedcost_matrix=10000*7*[7,7,7;8.1,8.1,8.1;8.7,8.7,8.7];
 a_fuelCapacity=7500;
 b_fuelCapacity=9000;
 c_fuelCapacity=10000;
@@ -23,7 +23,7 @@ fuelCapacity_matrix=1*[a_fuelCapacity,a_fuelCapacity*0.8,a_fuelCapacity*0.8;
     c_fuelCapacity,c_fuelCapacity*0.8,c_fuelCapacity*0.8];
 containerCapacity_matrix=10000*[1.2,1.2,1.2;1.6,1.6,1.6;2,2,2];
 weightCapacity_matrix=10000*[15,15,15;19,19,19;21,21,21];
-parameter_fuel_matrix=[1.387,2.975,2.975;1.608,3.449,3.449;1.828,3.923,3.923];
+parameter_fuel_matrix=[1.3,3,3;1.6,3.4,3.4;1.8,3.9,3.9];
 carbontax_matrix=[3.17,0,0];
 
 %UP
@@ -200,6 +200,7 @@ for ship_type=ship_type_fix    %12000 16000 20000TEU
         end
     end
 end
+
 
 
 
