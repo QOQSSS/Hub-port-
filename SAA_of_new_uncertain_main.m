@@ -1,6 +1,6 @@
 clc;clear;
 
-M=10;N=2;N_big=15;
+M=10;N=10;N_big=1000;
 ship_type_fix=[2];%12000 16000 20000TEU
 fuel_type_fix=[1:3];%Scene1 Scene2 Scene3
 start_Line=1;end_Line=1;
@@ -200,6 +200,7 @@ for ship_type=ship_type_fix    %12000 16000 20000TEU
         end
     end
 end
+
 
 
 
